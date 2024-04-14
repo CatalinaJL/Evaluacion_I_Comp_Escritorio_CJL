@@ -1,0 +1,26 @@
+﻿<Window x:Class="Evaluacion_I_Comp_Escritorio_CJL.AgregarEquipo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Evaluacion_I_Comp_Escritorio_CJL"
+        mc:Ignorable="d"
+        Title="AgregarEquipo" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lblInicioAgregar" Content="Ingrese los siguientes datos para agregar un equipo:" HorizontalAlignment="Left" Margin="61,31,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblNombreEquipo" Content="Nombre equipo:" HorizontalAlignment="Left" Margin="161,86,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNombreEquipo" HorizontalAlignment="Left" Height="26" Margin="353,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138"/>
+        <Label x:Name="lblCantJugadores" Content="Cantidad de jugadores:" HorizontalAlignment="Left" Margin="161,130,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCantJugadores" HorizontalAlignment="Left" Margin="353,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="26" PreviewTextInput="CheckTextInput"/>
+        <Label x:Name="lblDT" Content="Nombre Director Tecnico:" HorizontalAlignment="Left" Margin="161,179,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDT" HorizontalAlignment="Left" Margin="353,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141" Height="26"/>
+        <Label x:Name="lblTipoEquipo" Content="Tipo equipo:" HorizontalAlignment="Left" Margin="161,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTipoEquipo" HorizontalAlignment="Left" Margin="353,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="26"/>
+        <Label x:Name="lblCapitan" Content="Capitan equipo: " HorizontalAlignment="Left" Margin="161,261,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCapEquipo" HorizontalAlignment="Left" Margin="353,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="26"/>
+        <Label x:Name="lblSub21" Content="Tiene Sub21:" HorizontalAlignment="Left" Margin="161,306,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkSub21" Content="Equipo tiene Sub21" HorizontalAlignment="Left" Margin="353,312,0,0" VerticalAlignment="Top" Width="138" Height="26"/>
+        <Button x:Name="btnAgregarEquipo" Content="Agregar Equipo" HorizontalAlignment="Left" Margin="338,343,0,0" VerticalAlignment="Top" Width="143" Height="19.96" Click="btnAgregarEquipo_Click"/>
+
+    </Grid>
+</Window>
